@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1400px) {
+
+	.display-work {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+
+@media only screen and (max-width: 750px) {
+
+	.display-work {
+		grid-template-columns: 1fr;
+	}
+}
